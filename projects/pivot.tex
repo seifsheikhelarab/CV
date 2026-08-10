@@ -1,0 +1,10 @@
+\resumeSubheading
+{Pivot --- Multi-Tenant Feature Flag Service}{Jun. 2026}
+{Go, chi, sqlc, PostgreSQL, Redis, Docker}{\href{https://github.com/seifsheikhelarab/pivot}{GitHub}}
+\resumeItemListStart
+\resumeItem{Built Pivot, a multi-tenant feature flag service with REST APIs, domain-driven architecture, and full tenant data isolation.}
+\resumeItem{Designed a rule-based evaluation engine supporting user targeting, attribute matching, percentage rollouts, and deterministic FNV-1a hashing.}
+\resumeItem{Implemented read-through Redis caching for flag evaluations with pattern-based invalidation and 5-minute TTL fallback.}
+\resumeItem{Built async workers with asynq for exposure logging and webhook delivery using priority queues and exponential backoff retries.}
+\resumeItem{Added SHA-256 API key authentication, instant per-environment kill switches, and Docker Compose setup for API, worker, PostgreSQL, and Redis.}
+\resumeItemListEnd
